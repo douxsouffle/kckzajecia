@@ -1,0 +1,23 @@
+h1
+{
+    color: white;
+    font-family: Lucida Sans Unicode;
+    font-size: 50px;
+    background-color:  #183e2c;
+}
+
+body
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article
+{
+  margin-bottom: 10px;
+  background-color: #e5ebe8;
+  text-align: justify;
+  min-height: 500px;
+  padding: 15px;
+  font-size: 20px;
+}

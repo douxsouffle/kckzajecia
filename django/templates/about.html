@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+
+<header>
+  <h1>About page</h1>
+</header>
+
+<article>
+  <p>Nasz mózg reaguje na bodziec z prędkością 200 milisekund,
+    wysyłając określoną falę elektromagnetyczną.
+    Występuje ona przy wszystkich rodzajach bodźców i jest naturalną reakcją organizmu.
+    Okazuje się jednak, że gdy widzimy coś ważnego, to nasz mózg, poza nią generuje jeszcze jedną falę.
+    Nazywana jest ona P300, gdyż pojawia się <strong> 300 milisekund </strong> po ukazaniu się bodźca.
+    <br> Fala ta wycisza pozostałe bodźce, pozwalając nam <strong> skupić się </strong> przez chwilę tylko na tej <strong> jednej rzeczy </strong>.
+    Zatem każde zaskoczenie wywołujące tę falę, właśnie dzięki niej <strong> przykuwa naszą uwagę </strong> dużo dobitniej.
+    Fakt ten ma niebagatelne znaczenie dla każdej formy komunikacji, gdyż pokazuje, że to właśnie poprzez zaskoczenie możemy
+    przyciągnąć uwagę odbiorcy. Szczególnie korzystne jest jednak zastosowanie go w <br> e-marketingu, gdzie możemy od razu precyzyjnie
+    mierzyć i badać skuteczność zastosowanych rozwiązań. </p>
+</article>
+{% endblock content %}
+</html>
